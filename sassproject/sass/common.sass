@@ -1,0 +1,139 @@
+@import ../../app/components/bootstrap-sass/assets/stylesheets/_bootstrap.scss
+@import mixins
+
+body
+    min-height: 300px
+    max-height: 100%
+    overflow: hidden
+
+body, html, .main, #app, .container-fluid, .main-chatroom > .row:first-child
+    height: 100%
+
+.vertical-center
+    height: 100%
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+// login
+#image-error
+    display: none
+
+.login-region
+    display: flex
+    justify-content: flex-start
+
+.horizontal-center
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+.invite
+    text-align: center
+    width: 100%
+    margin-bottom: 40px
+
+.login-main
+    height: 100%
+
+    .login-view
+        height: 100%
+
+.log-in
+    margin-left: 2px
+    align-self: center
+
+.errors
+    padding: 8px
+    margin-top: 10px
+    display: none
+
+#userName
+
+// chatroom
+
+// users
+
+.users
+    height: 100%
+    overflow: auto
+    margin-right: 5px
+
+// sentregion
+.form-group
+    margin: 2px
+
+.input
+    position: absolute
+    left: 0
+    right: 80px
+    bottom: 26px
+
+#fileimage
+    position: absolute
+    bottom: 0
+
+#edit
+    width: 100%
+
+.main-chatroom
+    padding: 100px 0
+    border: solid black 1px
+    height: 100%
+
+    .main
+        // padding: 0
+        height: 100%
+        border: solid yellow 1px
+
+        .row
+            height: 100%
+
+.sent-region
+    position: relative
+
+#send
+    width: 80px
+    position: absolute
+    right: 0px
+    bottom: 26px
+
+// messages
+.messages
+    position: absolute
+    width: 100%
+    margin: 0
+    padding: 6px
+    border: solid green 2px
+    top: 0
+    bottom: 62px
+
+    // height: calc(100%, 20px)
+
+    // height: auto
+    min-height: 60px
+
+    // max-height: 400px
+    overflow: auto
+
+.name
+    font-size: 1.3em
+
+.text
+    font-size: 1.3em
+    padding-left: 20px
+
+.absolute
+    padding: 0
+    position: absolute
+    bottom: 0
+    width: 100%
+
+#message-container > img
+    width: 200px
+
+.container
+    margin-right: 0
+
+.img-preview
+    width: 100px

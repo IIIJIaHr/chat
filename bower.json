@@ -1,0 +1,26 @@
+{
+  "name": "garage",
+  "description": "",
+  "main": "Gruntfile.js",
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "underscore": "^1.8.3",
+    "backbone": "^1.2.3",
+    "bootstrap-css": "^3.3.6",
+    "requirejs": "^2.1.22",
+    "require-handlebars-plugin": "^1.0.0",
+    "handlebars": "^4.0.5",
+    "bootstrap-sass": "^3.3.6"
+  }
+}
